@@ -8,12 +8,12 @@ const NavBar=()=>{
     const [myBookingsPopUp,setMyBookingsPopUp]=useState(false);
     const router=useRouter();
 
-    if(myBookingsPopUp){
-        document.body.style.overflow='hidden';
-    }
-    else{
-        document.body.style.overflow='auto';
-    }
+    // if(myBookingsPopUp){
+    //     document.body.style.overflow='hidden';
+    // }
+    // else{
+    //     document.body.style.overflow='auto';
+    // }
 
     return(
         <div>
