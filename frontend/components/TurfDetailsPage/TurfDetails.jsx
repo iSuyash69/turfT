@@ -7,12 +7,12 @@ const TurfDetails=({turfData})=>{
 
     const [bookingsPopUp,setBookingsPopUp]=useState(false);
 
-    if(bookingsPopUp){
-        document.body.style.overflow='hidden';
-    }
-    else{
-        document.body.style.overflow='auto';
-    }
+    // if(bookingsPopUp){
+    //     document.body.style.overflow='hidden';
+    // }
+    // else{
+    //     document.body.style.overflow='auto';
+    // }
 
     const renderStars = (ratings) => {
         const stars = [];
